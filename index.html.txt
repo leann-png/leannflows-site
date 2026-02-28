@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Leann Flows Studio — Decision Architecture for Brand Clarity</title>
+  <meta name="description" content="A written-first brand diagnosis system: signals → patterns → structure → assumptions → execution loop." />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-neutral-900">
+  <main class="mx-auto max-w-5xl px-6 py-14">
+    <!-- Hero -->
+    <section class="space-y-5">
+      <div class="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm text-neutral-600">
+        <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
+        Written-first • No recurring meetings
+      </div>
+
+      <h1 class="text-4xl md:text-5xl font-semibold tracking-tight">
+        Decision Architecture for brands under channel shifts
+      </h1>
+
+      <p class="text-lg text-neutral-600 max-w-2xl">
+        I diagnose the structural tension beneath brand signals — then return with a decision-grade brief and guardrails to stop re-litigating decisions.
+      </p>
+
+      <div class="flex flex-wrap gap-3">
+        <a href="#request" class="rounded-lg bg-black px-5 py-2.5 text-white hover:bg-neutral-800">
+          Request a 1-page guardrail map
+        </a>
+        <a href="#modules" class="rounded-lg border px-5 py-2.5 hover:bg-neutral-50">
+          Explore the 5-module loop
+        </a>
+      </div>
+    </section>
+
+    <!-- Proof / output -->
+    <section class="mt-14 grid gap-4 md:grid-cols-3">
+      <div class="rounded-2xl border p-5">
+        <div class="text-sm text-neutral-500">Output</div>
+        <div class="mt-2 font-medium">Decision-grade brief (2–3 pages)</div>
+        <p class="mt-2 text-sm text-neutral-600">Clear options + decision gates, written-first.</p>
+      </div>
+      <div class="rounded-2xl border p-5">
+        <div class="text-sm text-neutral-500">What it fixes</div>
+        <div class="mt-2 font-medium">Repeated decisions & noisy trade-offs</div>
+        <p class="mt-2 text-sm text-neutral-600">Stops “we already decided this” from happening again.</p>
+      </div>
+      <div class="rounded-2xl border p-5">
+        <div class="text-sm text-neutral-500">Best for</div>
+        <div class="mt-2 font-medium">DTC / consumer brands (50–200)</div>
+        <p class="mt-2 text-sm text-neutral-600">Wholesale/retail expansion, positioning drift, margin pressure.</p>
+      </div>
+    </section>
+
+    <!-- Modules -->
+    <section id="modules" class="mt-16">
+      <h2 class="text-2xl font-semibold">The 5-module closed loop</h2>
+      <p class="mt-2 text-neutral-600 max-w-3xl">
+        Not a “brand deck.” This is a diagnostic loop: descend from signals to governing assumptions — then return as an execution loop.
+      </p>
+
+      <div class="mt-8 grid gap-4 md:grid-cols-2">
+        <!-- PZ -->
+        <div class="rounded-2xl border p-6 hover:border-neutral-400">
+          <div class="text-sm text-neutral-500">PZ-01</div>
+          <div class="mt-1 text-lg font-semibold">Positioning Zone</div>
+          <p class="mt-2 text-neutral-600">Intent → consistent attraction signals.</p>
+          <ul class="mt-4 space-y-2 text-sm text-neutral-700 list-disc pl-5">
+            <li>Clarify the beginning intention</li>
+            <li>Stabilize signals across touchpoints</li>
+            <li>Surface what the brand refuses to trade</li>
+          </ul>
+        </div>
+
+        <!-- PB -->
+        <div class="rounded-2xl border p-6 hover:border-neutral-400">
+          <div class="text-sm text-neutral-500">PB-01</div>
+          <div class="mt-1 text-lg font-semibold">Positioning Bones</div>
+          <p class="mt-2 text-neutral-600">Inner intention ↔ outer perception alignment.</p>
+          <ul class="mt-4 space-y-2 text-sm text-neutral-700 list-disc pl-5">
+            <li>Reduce mixed messaging</li>
+            <li>Create recognition anchors</li>
+            <li>Restore clarity & consistency</li>
+          </ul>
+        </div>
+
+        <!-- TTUP -->
+        <div class="rounded-2xl border p-6 hover:border-neutral-400">
+          <div class="text-sm text-neutral-500">TTUP-01</div>
+          <div class="mt-1 text-lg font-semibold">Triangle Under Price</div>
+          <p class="mt-2 text-neutral-600">Reveal value-collapse loops beneath pricing pressure.</p>
+          <ul class="mt-4 space-y-2 text-sm text-neutral-700 list-disc pl-5">
+            <li>Expose the vicious cycle</li>
+            <li>Identify value re-tiering options</li>
+            <li>Avoid churn-triggering moves</li>
+          </ul>
+        </div>
+
+        <!-- FL -->
+        <div class="rounded-2xl border p-6 hover:border-neutral-400">
+          <div class="text-sm text-neutral-500">FL</div>
+          <div class="mt-1 text-lg font-semibold">Flow Layer (Rhythm Gate)</div>
+          <p class="mt-2 text-neutral-600">Attention → relationship → trust (designed, not hoped for).</p>
+          <ul class="mt-4 space-y-2 text-sm text-neutral-700 list-disc pl-5">
+            <li>Design “bridge zones” intentionally</li>
+            <li>Reduce funnel fragility</li>
+            <li>Make trust conversion repeatable</li>
+          </ul>
+        </div>
+
+        <!-- MAP -->
+        <div class="rounded-2xl border p-6 hover:border-neutral-400 md:col-span-2">
+          <div class="text-sm text-neutral-500">MAP</div>
+          <div class="mt-1 text-lg font-semibold">Modular Alignment Path</div>
+          <p class="mt-2 text-neutral-600">Execution loop: channel × product × feedback with decision gates.</p>
+          <div class="mt-4 grid gap-3 md:grid-cols-3 text-sm">
+            <div class="rounded-xl bg-neutral-50 p-4 border">
+              <div class="font-medium">Options</div>
+              <div class="text-neutral-600 mt-1">2–3 executable paths</div>
+            </div>
+            <div class="rounded-xl bg-neutral-50 p-4 border">
+              <div class="font-medium">Gates</div>
+              <div class="text-neutral-600 mt-1">What changes / what doesn’t</div>
+            </div>
+            <div class="rounded-xl bg-neutral-50 p-4 border">
+              <div class="font-medium">Loop</div>
+              <div class="text-neutral-600 mt-1">Feedback → re-alignment</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="request" class="mt-16 rounded-3xl border bg-neutral-50 p-8">
+      <h3 class="text-2xl font-semibold">Request the 1-page guardrail map</h3>
+      <p class="mt-2 text-neutral-600 max-w-2xl">
+        Email me the company + the shift you’re navigating. I’ll reply written-first.
+      </p>
+
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a class="rounded-lg bg-black px-5 py-2.5 text-white hover:bg-neutral-800"
+           href="mailto:leann@leannflows.com?subject=Guardrail%20Map%20Request&body=Company:%0D%0AShift:%0D%0AWebsite:%0D%0A">
+          Email request (free)
+        </a>
+        <a class="rounded-lg border px-5 py-2.5 hover:bg-white" href="#modules">
+          Back to modules
+        </a>
+      </div>
+
+      <div class="mt-6 text-sm text-neutral-500">
+        Contact: <a class="underline" href="mailto:leann@leannflows.com">leann@leannflows.com</a> ·
+        <a class="underline" href="https://www.leannflows.com" target="_blank" rel="noreferrer">leannflows.com</a>
+      </div>
+    </section>
+
+    <footer class="mt-14 text-sm text-neutral-500">
+      © <span id="y"></span> Leann Flows Studio LLC · Structural Logic & Fluidity for Global Strategy
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
