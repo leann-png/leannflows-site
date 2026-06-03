@@ -14,6 +14,8 @@
     --muted: #8a8478;
     --light: #e8e4db;
     --accent: #2d3a2e;
+    --forest: #1e3022;
+    --forest-deep: #162619;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -53,7 +55,7 @@
   .section-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; line-height: 1.2; }
   .section-title em { font-style: italic; color: var(--warm); }
 
-  .problem { padding: 7rem 4rem; background: var(--ink); color: var(--paper); }
+  .problem { padding: 7rem 4rem; background: var(--forest); color: var(--paper); }
   .problem-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; max-width: 1100px; }
   .problem-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; line-height: 1.25; }
   .problem-title em { font-style: italic; color: var(--warm); }
@@ -74,7 +76,7 @@
   .logic-arrow { font-size: 1.5rem; color: var(--warm); flex-shrink: 0; }
 
   .staircase { display: flex; flex-direction: column; gap: 2px; }
-  .stair { display: grid; grid-template-columns: 220px 1fr; background: var(--ink); transition: background 0.2s; overflow: hidden; }
+  .stair { display: grid; grid-template-columns: 220px 1fr; background: var(--forest); transition: background 0.2s; overflow: hidden; }
   .stair:nth-child(1) { margin-left: 0; }
   .stair:nth-child(2) { margin-left: 3rem; }
   .stair:nth-child(3) { margin-left: 6rem; }
@@ -122,7 +124,7 @@
   .doc-section-label { font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--warm); margin-bottom: 0.5rem; }
   .deliverable-visual-label { font-size: 0.7rem; letter-spacing: 0.1em; color: rgba(245,242,236,0.4); margin-top: 1.5rem; text-align: center; }
 
-  .request { padding: 7rem 4rem; background: var(--ink); color: var(--paper); }
+  .request { padding: 7rem 4rem; background: var(--forest-deep); color: var(--paper); }
   .request-inner { max-width: 1100px; text-align: center; }
   .request-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 300; line-height: 1.2; margin-bottom: 1.5rem; color: var(--paper); }
   .request-title em { font-style: italic; color: var(--warm); }
@@ -145,7 +147,7 @@
   .about-body strong { color: var(--ink); font-weight: 500; }
   .about-quote { color: var(--ink); font-style: italic; font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; line-height: 1.8; border-left: 2px solid var(--warm); padding-left: 1.5rem; margin-top: 2rem; }
 
-  footer { background: var(--ink); color: var(--paper); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+  footer { background: var(--forest-deep); color: var(--paper); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
   .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.08em; color: var(--paper); text-decoration: none; }
   .footer-links { display: flex; gap: 2rem; list-style: none; flex-wrap: wrap; }
   .footer-links a { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; color: rgba(245,242,236,0.5); transition: color 0.2s; }
@@ -157,7 +159,7 @@
   .cases-label { font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--warm); margin-bottom: 2rem; display: flex; align-items: center; gap: 0.75rem; }
   .cases-label::before { content: ''; display: block; width: 2rem; height: 1px; background: var(--warm); }
   .cases-carousel { position: relative; }
-  .case { display: none; background: var(--ink); padding: 3.5rem; }
+  .case { display: none; background: var(--forest); padding: 3.5rem; }
   .case.active { display: block; animation: fadeUp 0.4s ease both; }
   .case-index { font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(200,169,110,0.5); margin-bottom: 1.5rem; }
   .case-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.6rem, 2.5vw, 2.2rem); font-weight: 300; color: var(--paper); line-height: 1.25; margin-bottom: 2.5rem; }
@@ -319,12 +321,12 @@
               <span class="case-block-label">Observable Event</span>
               <p>Revenue continues growing. New channels continue performing. Yet leadership feels increasingly uncertain about future expansion.</p>
             </div>
-            <div class="case-arrow">↓</div>
+            <div class="case-arrow">→</div>
             <div class="case-block">
               <span class="case-block-label">Structural Tension</span>
               <p>Growth has outpaced the structure originally designed to support it.</p>
             </div>
-            <div class="case-arrow">↓</div>
+            <div class="case-arrow">→</div>
             <div class="case-block case-block-implication">
               <span class="case-block-label">Market Implication</span>
               <p>Expansion decisions become slower, riskier, and increasingly reactive.</p>
@@ -341,12 +343,12 @@
               <span class="case-block-label">Observable Event</span>
               <p>The product is well reviewed. Repeat customers remain loyal. New customers hesitate at the price point.</p>
             </div>
-            <div class="case-arrow">↓</div>
+            <div class="case-arrow">→</div>
             <div class="case-block">
               <span class="case-block-label">Structural Tension</span>
               <p>The brand's value is experienced after purchase, but poorly communicated before purchase.</p>
             </div>
-            <div class="case-arrow">↓</div>
+            <div class="case-arrow">→</div>
             <div class="case-block case-block-implication">
               <span class="case-block-label">Market Implication</span>
               <p>Customer acquisition costs rise while conversion rates decline.</p>
@@ -363,12 +365,12 @@
               <span class="case-block-label">Observable Event</span>
               <p>Positioning discussions never seem to end. Different departments describe the brand differently.</p>
             </div>
-            <div class="case-arrow">↓</div>
+            <div class="case-arrow">→</div>
             <div class="case-block">
               <span class="case-block-label">Structural Tension</span>
               <p>The organization is operating from multiple brand definitions simultaneously.</p>
             </div>
-            <div class="case-arrow">↓</div>
+            <div class="case-arrow">→</div>
             <div class="case-block case-block-implication">
               <span class="case-block-label">Market Implication</span>
               <p>Execution slows. Alignment weakens. Market signals become harder to interpret.</p>
