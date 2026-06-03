@@ -78,12 +78,12 @@
   .logic-step-body { font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem; max-width: 160px; line-height: 1.6; margin-left: auto; margin-right: auto; }
   .logic-arrow { font-size: 1.5rem; color: var(--warm); flex-shrink: 0; }
 
-  .staircase { display: flex; flex-direction: column; gap: 3px; }
-  .stair { display: grid; grid-template-columns: 220px 1fr; background: var(--forest); transition: background 0.2s; overflow: hidden; }
-  .stair:nth-child(1) { margin-left: 0; }
-  .stair:nth-child(2) { margin-left: 6rem; }
-  .stair:nth-child(3) { margin-left: 12rem; }
-  .stair:nth-child(4) { margin-left: 18rem; }
+  .staircase { display: flex; flex-direction: column; gap: 3px; align-items: flex-end; }
+  .stair { display: grid; grid-template-columns: 220px 1fr; background: var(--forest); transition: background 0.2s; overflow: hidden; width: 100%; }
+  .stair:nth-child(1) { padding-left: 18rem; }
+  .stair:nth-child(2) { padding-left: 12rem; }
+  .stair:nth-child(3) { padding-left: 6rem; }
+  .stair:nth-child(4) { padding-left: 0; }
   .stair:hover { background: var(--accent); }
   .stair-label { padding: 2rem; display: flex; flex-direction: column; justify-content: center; border-right: 1px solid rgba(200,169,110,0.2); }
   .stair-num { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; font-weight: 300; color: var(--warm); line-height: 1; margin-bottom: 0.25rem; }
@@ -317,7 +317,7 @@
       </div>
     </div>
 
-  <div class="methodology-inner full-width">
+  <div class="methodology-inner">
     <!-- CASES CAROUSEL -->
     <div class="cases-wrap">
       <div class="cases-label">Diagnosis in Practice</div>
