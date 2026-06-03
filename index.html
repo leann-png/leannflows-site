@@ -182,9 +182,8 @@
   .hero-stat-row{ animation: fadeUp 0.6s 0.5s ease both; }
 
   @media (max-width: 768px) {
-    .case-flow { grid-template-columns: 1fr; }
-    .case-arrow { transform: rotate(0deg); text-align: left; padding: 0.25rem 0; }
-  }
+    nav { padding: 1.2rem 1.5rem; }
+    .nav-links { display: none; }
     .hero { grid-template-columns: 1fr; min-height: auto; }
     .hero-left { padding: 3rem 1.5rem; }
     .hero-right { padding: 3rem 1.5rem; min-height: 55vh; }
@@ -194,6 +193,8 @@
     .logic-flow { flex-direction: column; gap: 1.5rem; }
     .logic-arrow { transform: rotate(90deg); }
     .stair { grid-template-columns: 1fr; margin-left: 0 !important; }
+    .case-flow { grid-template-columns: 1fr; }
+    .case-arrow { transform: none; text-align: left; padding: 0.25rem 0; }
     footer { padding: 3rem 1.5rem; flex-direction: column; align-items: flex-start; }
   }
 </style>
