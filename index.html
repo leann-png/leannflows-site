@@ -78,12 +78,12 @@
   .logic-step-body { font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem; max-width: 160px; line-height: 1.6; margin-left: auto; margin-right: auto; }
   .logic-arrow { font-size: 1.5rem; color: var(--warm); flex-shrink: 0; }
 
-  .staircase { display: flex; flex-direction: column; gap: 3px; padding: 0 4rem 4rem; }
-  .stair { display: grid; grid-template-columns: 220px 1fr; background: var(--forest); transition: background 0.2s; overflow: hidden; max-width: 900px; margin-left: auto; }
-  .stair:nth-child(1) { margin-right: 9rem; }
-  .stair:nth-child(2) { margin-right: 6rem; }
-  .stair:nth-child(3) { margin-right: 3rem; }
-  .stair:nth-child(4) { margin-right: 0; }
+  .staircase { display: flex; flex-direction: column; gap: 2px; }
+  .stair { display: grid; grid-template-columns: 220px 1fr; background: var(--forest); transition: background 0.2s; overflow: hidden; }
+  .stair:nth-child(1) { margin-left: 0; }
+  .stair:nth-child(2) { margin-left: 3rem; }
+  .stair:nth-child(3) { margin-left: 6rem; }
+  .stair:nth-child(4) { margin-left: 9rem; }
   .stair:hover { background: var(--accent); }
   .stair-label { padding: 2rem; display: flex; flex-direction: column; justify-content: center; border-right: 1px solid rgba(200,169,110,0.2); }
   .stair-num { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; font-weight: 300; color: var(--warm); line-height: 1; margin-bottom: 0.25rem; }
@@ -396,9 +396,8 @@
         <span class="case-dot" onclick="goCase(2)"></span>
       </div>
     </div>
-  </div>
 
-  <div class="staircase">
+    <div class="staircase">
       <div class="stair">
         <div class="stair-label">
           <span class="stair-num">4</span>
@@ -440,6 +439,7 @@
         </div>
       </div>
     </div>
+  </div>
 </section>
 
 <section class="how" id="how">
